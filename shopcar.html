@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车页</title>
+	<link rel="stylesheet" href="sass/css/common.css">
+	<link rel="stylesheet" href="sass/css/shopcar.css">
+</head>
+<body>
+	<!-- 头部 -->
+	<div id="shopcar_top">
+		<h1><img src="images/Slogo.jpg" alt=""></h1>
+		<p>珠宝主题特卖商城</p>
+	</div>
+	<!-- 结算处 -->
+	<div id="shopcar_account">
+		<div class="shopcar_account_top">
+			<div class='ring'>我的珠宝箱</div>
+			<span class='kong'>清空珠宝箱</span>
+		</div>
+		<table>
+				<tr style='border-bottom:1px solid #000;line-height: 50px;'>
+					<td width='110px'>
+						<input type="checkbox" id='btnall'>
+						全选
+					</td>
+					<td width='278px'>
+						商家
+					</td>
+					<td width='150px'>单价</td>
+					<td width='150px'>数量</td>
+					<td width='144px'>小计</td>
+					<td>操作</td>
+				</tr>
+				<tr  class='first_tr' style='height:106px;'>
+					<td class='second_input' width='110px'><input type="checkbox" id='btn'></td>
+					<td width='278px'>
+						<img src="images/shop1.jpg" alt="" style="float: left;margin-left:10px;margin-right:10px;">
+						GZUAN/古钻 守护 18K金钻石女戒指
+					</td>
+					<td class='price' width='150px' id="pr">3999.00</td>
+					<td class='second_jia' width='130px'>
+						<i id='second_1i'>-</i>
+						<span id='second_num'>1</span>
+						<i id='second_2i'>+</i>
+					</td>
+					<td class='subtotal' width='120px'>3999</td>
+					<td class='second_delect'>删除</td>
+				</tr>
+			</table>
+			<p>已享受的促销优惠</p>
+
+			<ul class='shopcar_account'>
+				<li style='line-height:34px'>
+					<em>商品总额:</em>
+					<span class='product_add'>3999.00</span>
+				</li>
+				<li style='line-height:26px'>
+					<em>+运费:</em>
+					<span>0.00</span>
+				</li>
+				<li style='line-height:26px'>
+					<em>折扣优惠:</em>
+					<span>0.00</span>
+				</li>
+				<li style='line-height:40px;font-size:20px;'>
+					<em>实付款:</em>
+					<span class='pay' style='color:#e3337e;'>3999.00</span>
+				</li>
+
+				<ul class='shopcar_input'>
+					<li><input type="button" value="继续购买" style='width:104px;line-height:34px;
+					color:#fff;background:#aeaeae;margin:0 22px 0 30px; '></li>
+					<li><input type="button" value="去接算" style='width:104px;line-height:34px;color:#fff;background:#e3337e;'></li>
+				</ul>
+			</ul>
+	</div>
+
+
+	 <div id="box">
+	        <ul id="top">
+	            <li class="red">热门推荐</li>
+	            <li>猜你喜欢</li>
+	            <li>最近浏览</li>
+	        </ul>
+	        <div id="img">
+	           	<div class="zindex">
+	           		<ul>
+	           			<li><img src="images/shopcar1.jpg" alt=""></li>
+           				<li class='table_price'>￥1350.0</li>
+           				<li class='table_add'>￥0.0</li>
+	           			<li  class='table_p'>MaBelle玛贝尔 18k彩金脚链送女友子女礼物现货</li>
+	           		</ul>
+	           		<ul>
+	           			<li><img src="images/shopcar2.jpg" alt=""></li>
+           				<li class='table_price'>￥1350.0</li>
+           				<li class='table_add'>￥0.0</li>
+	           			<li  class='table_p'>MaBelle玛贝尔 18k彩金脚链送女友子女礼物现货</li>
+	           		</ul>
+	           		<ul>
+	           			<li><img src="images/shopcar3.jpg" alt=""></li>
+           				<li class='table_price'>￥1350.0</li>
+           				<li class='table_add'>￥0.0</li>
+	           			<li  class='table_p'>MaBelle玛贝尔 18k彩金脚链送女友子女礼物现货</li>
+	           		</ul>
+	           		<ul>
+	           			<li><img src="images/shopcar4.jpg" alt=""></li>
+           				<li class='table_price'>￥1350.0</li>
+           				<li class='table_add'>￥0.0</li>
+	           			<li  class='table_p'>MaBelle玛贝尔 18k彩金脚链送女友子女礼物现货</li>
+	           		</ul>
+	           </div>
+	            <div>
+	           		<ul>
+	           			<li><img src="images/shopcar5.jpg" alt=""></li>
+	           				<li class='table_price'>￥1350.0</li>
+	           				<li class='table_add'>￥0.0</li>
+	           			<li  class='table_p'>MaBelle玛贝尔 18k彩金脚链送女友子女礼物现货</li>
+	           		</ul>
+	           		<ul>
+	           			<li><img src="images/shopcar6.jpg" alt=""></li>
+	           				<li class='table_price'>￥1350.0</li>
+	           				<li class='table_add'>￥0.0</li>
+	           			<li  class='table_p'>MaBelle玛贝尔 18k彩金脚链送女友子女礼物现货</li>
+	           		</ul>
+	           		<ul>
+	           			<li><img src="images/shopcar7.jpg" alt=""></li>
+	           				<li class='table_price'>￥1350.0</li>
+	           				<li class='table_add'>￥0.0</li>
+	           			<li  class='table_p'>MaBelle玛贝尔 18k彩金脚链送女友子女礼物现货</li>
+	           		</ul>
+	           		<ul>
+	           			<li><img src="images/shopcar8.jpg" alt=""></li>
+	           				<li class='table_price'>￥1350.0</li>
+	           				<li class='table_add'>￥0.0</li>
+	           			<li  class='table_p'>MaBelle玛贝尔 18k彩金脚链送女友子女礼物现货</li>
+	           		</ul>
+	           </div>
+				<div>
+	           		<ul>
+	           			<li><img src="images/shopcar9.jpg" alt=""></li>
+	           				<li class='table_price'>￥1350.0</li>
+	           				<li class='table_add'>￥0.0</li>
+	           			<li class='table_p'>MaBelle玛贝尔 18k彩金脚链送女友子女礼物现货</li>
+	           		</ul>
+	           		<ul>
+	           			<li><img src="images/shopcar10.jpg" alt=""></li>
+	           				<li class='table_price'>￥1350.0</li>
+	           				<li class='table_add'>￥0.0</li>
+	           			<li  class='table_p'>MaBelle玛贝尔 18k彩金脚链送女友子女礼物现货</li>
+	           		</ul>
+	           		<ul>
+	           			<li><img src="images/shopcar11.png" alt=""></li>
+	           				<li class='table_price'>￥1350.0</li>
+	           				<li class='table_add'>￥0.0</li>
+	           			<li class='table_p'>MaBelle玛贝尔 18k彩金脚链送女友子女礼物现货</li>
+	           		</ul>
+	           		<ul>
+	           			<li><img src="images/shopcar12.jpg" alt=""></li>
+	           				<li class='table_price'>￥1350.0</li>
+	           				<li class='table_add'>￥0.0</li>
+	           			<li class='table_p'>MaBelle玛贝尔 18k彩金脚链送女友子女礼物现货</li>
+	           		</ul>
+	           </div>
+
+	        </div>
+	    </div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src='js/shopcar.js'></script>
+<script type="text/javascript" src='js/hover.js'></script>

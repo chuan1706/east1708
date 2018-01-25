@@ -1,0 +1,74 @@
+ul, li {
+  list-style: none; }
+
+img {
+  font-size: 0;
+  border: 0; }
+
+#box {
+  width: 982px;
+  height: 420px;
+  float: left; }
+  #box #top {
+    line-height: 38px;
+    width: 964px;
+    background: #efa4c3;
+    float: left;
+    padding-left: 20px; }
+    #box #top li {
+      padding-left: 20px;
+      float: left;
+      color: #fff;
+      font-size: 18px;
+      padding: 0 18px; }
+    #box #top .red {
+      color: #d82c74;
+      background: #fff;
+      border-radius: 5px 5px 0 0;
+      height: 36px;
+      margin-top: 4px; }
+  #box #img {
+    width: 982px;
+    height: 382px;
+    position: relative;
+    border: 1px solid #ccc;
+    float: left; }
+    #box #img div {
+      height: 382px;
+      top: 26px;
+      position: absolute; }
+      #box #img div ul {
+        border: 1px solid #ccc;
+        width: 220px;
+        height: 330px;
+        float: left;
+        margin-left: 20px; }
+        #box #img div ul img {
+          float: left;
+          width: 150px;
+          height: 144px;
+          margin: 20px 0 88px 30px; }
+        #box #img div ul .table_price {
+          color: #e3337e;
+          font-size: 16px;
+          width: 24%;
+          height: 20px;
+          border-top: 1px dashed #ccc;
+          float: left;
+          padding: 1.2% 0 0 10px; }
+        #box #img div ul .table_add {
+          width: 59%;
+          border-top: 1px dashed #ccc;
+          float: left;
+          color: #666;
+          padding-left: 10%;
+          font-size: 10px;
+          padding-top: 7px; }
+        #box #img div ul .table_p {
+          color: #666;
+          font-size: 10px;
+          line-height: 14px;
+          width: 90%;
+          margin: 5%; }
+    #box #img .zindex {
+      z-index: 5; }
